@@ -106,6 +106,6 @@ Health check endpoint at `/health` — monitored by UptimeRobot.
 
 ## About
 
-Built by [Sidharth S](https://linkedin.com/in/sidharth-s-916s) — MSc Electronic Science student, Cochin University of Science and Technology (CUSAT).
+Built by [Sidharth S](https://linkedin.com/in/sidharth-s-916s) 
 
 [GitHub](https://github.com/Sidharths916) · [LinkedIn](https://linkedin.com/in/sidharth-s-916s)
