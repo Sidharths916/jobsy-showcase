@@ -1,6 +1,6 @@
 # Jobsy — AI Resume Optimizer
 
-> **Live demo:** [jobsy-g0xw.onrender.com](https://jobsy-g0xw.onrender.com)
+> **Live demo:** [jobsy-g0xw.onrender.com](https://jobsy-g0xw.onrender.com) · **Current release:** [v2.3.14](https://github.com/Sidharths916/resume-analyzer/releases/tag/v2.3.14)
 
 Turn a rough resume into an ATS-ready one — free, no sign-up, no account. A senior recruiter reads it, rewrites every bullet using the Google XYZ formula, simulates an ATS filter, runs a 7-second hiring-manager skim test, and optionally runs a mock interview, all in a single session.
 
@@ -66,6 +66,7 @@ This was built with a 13-layer security checklist applied throughout. Highlights
 - Consent checkbox gates all 5 data-submitting tools before any API call fires
 - Pro-tier key stored in sessionStorage only, auto-cleared after 30 minutes idle, never reaches the server
 - `pip-audit` runs in CI on every PR
+- Dependabot alerts + automated security-update PRs enabled on the dependency graph
 
 Full audit record available on request.
 
