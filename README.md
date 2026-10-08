@@ -1,6 +1,6 @@
 # Jobsy — AI Resume Optimizer
 
-> **Live demo:** [jobsy-g0xw.onrender.com](https://jobsy-g0xw.onrender.com) · **Current release:** [v2.3.14](https://github.com/Sidharths916/resume-analyzer/releases/tag/v2.3.14)
+> **Live demo:** [jobsy-g0xw.onrender.com](https://jobsy-g0xw.onrender.com) · **Current release:** [v2.4.0](https://github.com/Sidharths916/resume-analyzer/releases/tag/v2.4.0)
 
 Turn a rough resume into an ATS-ready one — free, no sign-up, no account. A senior recruiter reads it, rewrites every bullet using the Google XYZ formula, simulates an ATS filter, runs a 7-second hiring-manager skim test, and optionally runs a mock interview, all in a single session.
 
@@ -74,7 +74,9 @@ Full audit record available on request.
 
 ## UI design
 
-Liquid glass dark theme. Gradient-border cards with soft ambient glow (no `backdrop-filter` dependency — replaced with a `background-clip: padding-box / border-box` technique that actually renders consistently). Instrument Serif + Inter typography. Built without any CSS framework.
+Restrained dark interface with one muted teal accent (gold reserved for Pro-tier markers only), flat hairline-bordered surfaces, a static background, and a deliberately small radius scale (pill / card / control). Instrument Serif for the wordmark and display type, Inter for UI text. Built without any CSS framework.
+
+v2.4.0 was a deliberate de-genericization pass: the earlier "liquid glass" look (glowing gradient borders, animated starfield, autoplay hero video) was audited against documented AI-generated-UI patterns and removed — including a logo that turned out to imitate another product's visual identity too closely, and a hero video that was costing bandwidth on every page load whether or not it was visible. See the release notes for the full list.
 
 ---
 
